@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
 .jumbotron {
-    background-image: url('../assets/wheat.jpg');
-    min-height: 300px;
+    background-image: url('../assets/hope.jpg');
+    min-height: 400px;
+    text-align: center;
+    background-size: cover; 
+    background-position: center center;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
 }
 
 .propic {
     height: 400px;
     width: 400px;
     object-fit: cover;
+}
+
+.container{
+    background-color: gray;
 }
