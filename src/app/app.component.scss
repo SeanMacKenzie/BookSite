@@ -11,12 +11,14 @@
     font-size: 2em;
 }
 
-.propic {
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
+.container-fluid{
+    background-color: gray;
 }
 
-.container{
-    background-color: gray;
+.book{
+    text-align: left;
+}
+
+.bio{
+    text-align: right;
 }

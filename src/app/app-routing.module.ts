@@ -1,11 +1,17 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
-
-const routes: Routes = [];
+import { BioComponent } from './bio/bio.component';
+import { BookComponent } from './book/book.component';
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(
+    [
+      { path: 'book', component: BookComponent },
+      { path: '', redirectTo: '/bio', pathMatch: 'full' },
+      { path: 'bio', component: BioComponent }
+    ]
+  )],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
