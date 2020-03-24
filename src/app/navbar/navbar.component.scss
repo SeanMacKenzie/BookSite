@@ -4,11 +4,18 @@
     font-family: 'Permanent Marker', cursive;
 }
 
-.icons{
-    text-align: right;
+.container {
+    padding-top: 1em;
 }
 
-.container-fluid{
-    background-color: bisque;
-    box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
+// .icons{
+//     text-align: right;
+// }
+
+a {
+    color: black;
+}
+
+.row {
+    text-align: center;
 }

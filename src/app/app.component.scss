@@ -11,14 +11,22 @@
     font-size: 2em;
 }
 
-.container-fluid{
-    background-color: gray;
-}
+// .container-fluid{
+//     background-color: gray;
+// }
 
 .book{
-    text-align: left;
+    text-align: center;
 }
 
 .bio{
-    text-align: right;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.contact {
+    text-align: center;
 }
