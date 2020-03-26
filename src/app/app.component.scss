@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
 
 .jumbotron {
     background-image: url('../assets/hope.jpg');
-    min-height: 400px;
+    min-height: 450px;
     text-align: center;
     background-size: cover; 
-    background-position: center center;
+    background-position: center bottom;
     color: white;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Inconsolata', monospace;
     font-size: 2em;
 }
 
-// .container-fluid{
-//     background-color: gray;
-// }
+.container-fluid {
+    background-repeat: repeat;
+    background-image: url("../assets/45-degree-fabric-light.png");
+    background-color: rgb(8, 155, 166);
+}
 
 .book{
     text-align: center;
